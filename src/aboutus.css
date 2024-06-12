@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: Myfont;
+    src: url('./Satoshi_Complete/Satoshi_Complete/Fonts/OTF/Satoshi-Light.otf');
+}
+*{
+    font-family: Myfont;
+}
+
+.headingpage-container{
+    place-content: center;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+.headingpage-title{
+    font-size : 3.5rem;
+    font-weight:bolder;
+    user-select: none;
+}
+.headingpage-image-1{
+    border-radius: 100%;
+    width: 80px;
+    height: 75px;
+    -webkit-user-drag: none;
+}
+.headingpage-image-2{
+    width : 100px;
+    height: 100px;
+    -webkit-user-drag: none;
+    border-radius: 100%;
+}
+.headingpage-image-3{
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    padding: 0px 10px;
+    -webkit-user-drag: none;
+}
+.headingpage-image-4 {
+    border-radius: 20px;
+    width: 150px;
+    height: 80px;
+    padding: 0px 10px;
+    -webkit-user-drag: none;
+}
+.shapingfutures{
+    padding: 80px 60px;
+}
+.shapingfutures-title{
+    font-size: 50px;
+    font-weight: bold;
+    user-select: none;
+}
+.ourmission-title {
+    font-size: 26px;
+    color: #88888A;
+    font-weight: bold;
+    padding : 20px 0px;
+    user-select: none;
+}
+.ourmission-content {
+    font-size: 20px;
+    color: #0f0f0f;
+    user-select: none;
+}
