@@ -2,7 +2,7 @@
 function Youtube() {
   return (
 <div>
-    data
+   <></>
 </div>
   );
 }
