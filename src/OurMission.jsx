@@ -6,8 +6,8 @@ function OurMission() {
     <div className="ourmission-container">
       <div className="ourmission-title">Our Mission</div>
       {JSONdata.map((data, index) => (
-        <div key={index} className="ourmission-content">
-          <div>{data.content}</div>
+        <div key={index}>
+          <div className="ourmission-content">{data.content}</div>
         </div>
       ))}
     </div>

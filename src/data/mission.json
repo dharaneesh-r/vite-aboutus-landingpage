@@ -1,5 +1,47 @@
 [
     {
-        "content" : "Since our inception, Dotworld has been on a mission to redefine the landscape of robotics, consistently delivering exceptional solutions that transform businesses. We craft innovative products that not only meet but exceed expectations. With each passing year, our expertise deepens, empowering us to pioneer advancements in automation and shape the future of robotics precisely as it should be."
+        "designation" : "Designation",
+        "image" : "",
+        "teamanme" : "Team name"
+    },
+    {
+        "designation" : "Designation",
+        "image" : "https://framerusercontent.com/images/ykax52rsbkgYur5jZqaKxWGRLM.jpg?scale-down-to=1024",
+        "teamanme" : "Team name"
+    },
+    {
+        "designation" : "Designation",
+        "image" : "https://framerusercontent.com/images/d4SpmpLmhUfMZkWsTOukrdAmhg.jpg?scale-down-to=1024",
+        "teamanme" : "Team name"
+    },
+    {
+        "designation" : "Designation",
+        "image" : "https://framerusercontent.com/images/SXFz8Wuy8bsYZ1ytQVNXmVyWXP0.jpg?scale-down-to=1024",
+        "teamanme" : "Team name"
+    },
+    {
+        "designation" : "Designation",
+        "image" : "https://framerusercontent.com/images/pVkIzXwfVUeaGFFY4CaQBJJdXhE.jpg?scale-down-to=512",
+        "teamanme" : "Team name"
+    },
+    {
+        "designation" : "Designation",
+        "image" : "https://framerusercontent.com/images/Y9KmJAQ4w53hsc4jJojfokLZ7D8.jpg?scale-down-to=1024",
+        "teamanme" : "Team name"
+    },
+    {
+        "designation" : "Designation",
+        "image" : "https://framerusercontent.com/images/G1bC6MQnKLl8c7ZyjwpJlVGuw.jpg?scale-down-to=1024",
+        "teamanme" : "Team name"
+    },
+    {
+        "designation" : "Designation",
+        "image" : "https://framerusercontent.com/images/lraNqHYYesVAwxzn93Ideyrrw8.jpg?scale-down-to=1024",
+        "teamanme" : "Team name"
+    },
+    {
+        "content" : "Since our inception, Dotworld has been on a mission to redefine the landscape of robotics, consistently delivering exceptional solutions that transform businesses. We craft innovative products that not only meet but exceed expectations. With each passing year, our expertise deepens, empowering us to pioneer advancements in automation and shape the future of robotics precisely as it should be.",
+        "ourTeamContent" : "We’re operators, founders, engineers, and specialists turned investors. We’re mountaineers, fly fishers, dog lovers, hobby DJs, adventurous skiers, aspiring tennis pros, parents, and foodies. We’re enthusiasts and realists. We’re explorers and builders working to support the people and ideas changing the world.And you’ll never get only one of us. The united experience of our team stands behind you",
+        "image" : "none"
     }
 ]

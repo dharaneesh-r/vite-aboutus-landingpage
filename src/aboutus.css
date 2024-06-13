@@ -5,7 +5,7 @@
 }
 *{
     font-family: Myfont;
-    margin-left: 0;
+    margin: 0;
 }
 
 .headingpage-container{
@@ -54,13 +54,14 @@
     user-select: none;
 }
 .ourmission-title {
-    font-size: 26px;
+    font-size: 20px;
     color: #88888A;
     font-weight: bold;
     padding : 20px 0px;
     user-select: none;
-    float: left;
+    float: left;    
     place-content: center;
+    text-align: center;
     width: 30%;
 }
 .ourmission-content {
@@ -71,8 +72,9 @@
     width: 70%;
 }
 .ourmission-container{
+    padding: 40px 0px;
     display: flex;
-    padding: 10px 0px;
+    width: 100%;
 }
 .success-story {
     background-color: black;
@@ -143,6 +145,7 @@
     padding: 0px 20px;
     border-radius: 20px;
     padding-left:  50px;
+    user-select: none;
 }
 .section-content-last{
     width : 70%;
@@ -174,6 +177,7 @@
     font-family: "Bebas Neue", sans-serif;
     top: 20px;
     z-index: -1;
+    -webkit-user-drag: none;
     user-select: none;
 }
 .section{
@@ -184,4 +188,90 @@
     font-weight: bold;
     padding : 60px 60px;
     user-select: none;
+}
+.client-container {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding : 0px 20px;
+    width: 450px;
+}
+.client-image {
+    padding : 20px;
+    user-select: none;
+}
+.client-src-image {
+    width : 50%;
+}
+.client-content{
+    padding: 0px 20px;
+    padding-bottom: 20px;
+    user-select: none;
+}
+.client-candidate { 
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    user-select: none;
+}
+.client-head{
+    padding :0px 20px;
+    padding-bottom: 20px;
+    user-select: none;
+}
+.empowering-title{
+    font-size : 3.5rem;
+    font-weight: bold;
+    user-select: none;
+}
+.empowering-container {
+    padding: 60px;
+}
+.team-members {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.title-empowering {
+    float: left;
+    place-content: center;
+    font-size : 25px;
+    color: #88888A;
+    text-align: center;
+    user-select: none;
+    font-weight: bold;
+    padding: 50px 0px;
+    width: 30%;
+}
+.content-empowering {
+    font-size: 20px;
+    color: #0f0f0f;
+    user-select: none;
+    float: right;
+    width: 70%;
+}
+.title-emp {
+    padding: 70px 0px;
+}
+.empoweringmember-container {
+    padding: 60px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.empowering-image {
+    gap: 20px;    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.empowering-src {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    user-select: none;
+}
+.designation {
+    font-size: 15px;
+    float: right;
+}
+.team {
+    font-size : 15px;
+    float: left;
 }
