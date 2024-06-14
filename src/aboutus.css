@@ -275,3 +275,108 @@
     font-size : 15px;
     float: left;
 }
+.grid-container { 
+    background-color: black;
+    color: white;
+    /* padding : 20px 10%; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* justify-content: space-around;  */
+    /* gap : 20px; */
+    column-rule-style: dashed;
+    user-select: none;
+}
+
+.title-grid {
+    /* padding-bottom:  20px; */
+    font-size : 22px;
+    color: grey;
+}
+.title-content {
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.title {
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+.brands {
+    font-size: 15px;
+    padding-bottom: 10px; 
+    color:white;
+}
+.svgimg{
+    float: right;
+    position: relative;
+    right: 50%;
+}
+.brands:hover{
+    text-decoration: underline;
+    color: white;
+    
+}
+.contact {
+    padding : 20px 10%;
+    border : 1px solid white;
+    padding: 20px 20px;
+}
+.location {
+    padding : 20px 10%;
+    padding: 20px 20px;
+    border :  1px solid white;
+}
+.sitemap {
+    padding : 20px 10%;
+    padding: 20px 20px;
+    border : 1px solid white;
+}
+.connect {
+    padding : 20px 10%;
+    padding: 20px 20px;
+    border : 1px solid white;
+}
+.marquee-heading{
+    font-size: 3.5rem;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.marquee-heading:hover{
+    color: blue;
+}
+.footer-heading {
+    padding: 10px 20px;
+    font-size : 5rem;
+    font-weight: bold;
+}
+.footer-container {
+    background-color: black;
+    color: white;
+    padding: 20px 10px;
+    display: flex;
+    user-select: none;
+}
+.footer-heading:hover{
+    color: blue;
+}
+/* .service-img{
+    animation : img linear;
+    animation-timeline : view( );
+    animation-range : entry;
+} */
+.footerfooter{
+    -webkit-user-drag: none;
+    padding:0;
+    height: 100vh;
+    background-color: black;
+    place-content: center;
+}
+
+
+@media screen and (max-width: 480px) {
+    .marquee-heading{
+        font-size: 2rem;
+    }
+    .grid-container{
+        display: block;
+    }
+}

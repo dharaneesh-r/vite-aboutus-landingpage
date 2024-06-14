@@ -7,6 +7,8 @@ import OurMission from './OurMission';
 import ShapingFutures from './ShapingFutures';
 import TriggerScroll from './TriggerScroll';
 import Youtube from './Youtube';
+import Footer from './Footer'
+import Footergrid from './Footergrid'
 import './aboutus.css'
 
 function App() {
@@ -29,6 +31,13 @@ function App() {
         <Empowering />
       </div>
       <EmpoweringMember />
+      <div className='footerfooter'>
+        <Footer />
+        <Footergrid />
+        <div style={{padding : '20px',backgroundColor : 'black',color : 'white',fontSize : '12px'}}>
+          <div>&copy;2023 All Rights reserved  <span style={{float: 'right'}}>Privacy Policy</span></div>
+        </div>
+      </div>
     </div>
   );
 }
