@@ -1,18 +1,21 @@
+import data from './data/empowering.json'
+
 
 
 function EmpoweringMember() {
   return (
-    <div className="empoweringmember-container">
-      <div className="empowering-image">
-        <div className="designation">Designation</div>
-        <img
-          src="https://framerusercontent.com/images/tSWhVVSzLMdT4ZgkvnylM58TM.jpg?scale-down-to=1024"
-          className="empowering-src"
-        />
-        <div className="team">Team name</div>
-      </div>
+    <div className="empoweringMember">
+      {data.map((data, index) => (
+        <div className="empowering-grid" key={index}>
+          <div className="designation">{data.designation}</div>
+          <div className="empowering-image">
+            <img src={data.image} className="emp-image" />
+          </div>
+          <div className="team-name">{data.teamname}</div>
+        </div>
+      ))}
     </div>
   );
 }
 
-export default EmpoweringMember;
+export default EmpoweringMember

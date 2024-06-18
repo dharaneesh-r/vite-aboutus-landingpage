@@ -189,10 +189,13 @@
     padding : 60px 60px;
     user-select: none;
 }
+.top-div-client {
+    padding : 0px 25px;
+}
 .client-container {
     border: 1px solid black;
     border-radius: 30px;
-    padding : 0px 20px;
+    /* padding : 0px 20px; */
     width: 450px;
 }
 .client-image {
@@ -251,30 +254,7 @@
 .title-emp {
     padding: 70px 0px;
 }
-.empoweringmember-container {
-    padding: 60px 0px;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-.empowering-image {
-    gap: 20px;    
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-.empowering-src {
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-    user-select: none;
-}
-.designation {
-    font-size: 15px;
-    float: right;
-}
-.team {
-    font-size : 15px;
-    float: left;
-}
+
 .grid-container { 
     background-color: black;
     color: white;
@@ -370,6 +350,31 @@
     background-color: black;
     place-content: center;
 }
+.empoweringMember{
+    padding: 60px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap : 20px;
+    row-gap : 40px;
+
+}
+.empowering-image{
+    -webkit-user-drag: none;
+}
+.emp-image{
+    width: 269px;
+    height: 358px;
+    border-radius: 10px;
+}
+.designation {
+    user-select: none;
+    float: right;
+}
+.team-name{
+    user-select: none;
+    float: left;
+}
+
 
 
 @media screen and (max-width: 480px) {
