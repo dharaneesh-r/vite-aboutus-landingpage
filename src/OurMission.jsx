@@ -18,7 +18,7 @@ function OurMission() {
       scrollTrigger : {
         trigger : '.ourmission-title',
         toggleActions : 'restart none none none',
-        start : '20% bottom',
+        start : '10% bottom',
         duration : 1,
         scrub : 1,
         stagger : 1,  
@@ -35,7 +35,7 @@ function OurMission() {
       scrollTrigger : {
         trigger : '.ourmission-content',
         toggleActions : 'restart none none none',
-        start : '20% bottom',
+        start : '10% bottom',
         duration : 1,
         scrub : 1,
         stagger : 1,  
