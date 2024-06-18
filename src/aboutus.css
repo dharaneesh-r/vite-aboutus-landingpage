@@ -6,6 +6,7 @@
 *{
     font-family: Myfont;
     margin: 0;
+    /* overflow-x: hidden; */
 }
 
 .headingpage-container{
@@ -79,6 +80,7 @@
 .success-story {
     background-color: black;
     color: white;
+    /* width: 100%; */
 }
 .success-story-container{
     padding: 60px;
@@ -88,8 +90,6 @@
     font-weight: bolder;
     user-select: none;
 }
-
-
 .section-container {
     overflow : hidden;
     padding-top : 30%;
@@ -100,51 +100,42 @@
     height : 70vh;
     width : 2500vw;
     display : flex;
+    /* overflow-x: hidden; */
     flex-direction : row;
     position : relative;
 }
 .section-title{
     font-size : 25px;
     font-weight : bold;
-    padding-left : 30px;
+    padding-left : 20px;
     user-select: none;
     place-content: center;
 }
 .section { 
     width : 100vh;
     display: inline;
+    position: relative;
 }
 .section-content{
     width : 80%;
     font-size: 18px;
     color: grey;
-    padding : 10px 30px;
+    padding : 10px 10px;
     text-align: justify;
     user-select: none;
     place-content: center;
 }
-.section-button {
-    text-decoration : none;
-    color: white;
-    font-size : 18px;
-}
-.section-icon{
-    padding-left : 10px;
-    width : 10%;
-    color: white;
-    background-color: black;
-}
 .section-img{
-    width : 100%;
+    width : 80%;
     height : 250px;
     border-radius: 15px;
     display: flex;
     z-index: 2;
 }
 .section-div-img{
-    padding: 0px 20px;
+    /* padding: 0px 20px; */
     border-radius: 20px;
-    padding-left:  50px;
+    /* padding-left:  0px; */
     user-select: none;
 }
 .section-content-last{
@@ -173,16 +164,14 @@
     rotate: 270deg;
     padding: 0px;
     position : absolute;
-    left: -90px;   
+    left: -130px;   
     font-family: "Bebas Neue", sans-serif;
     top: 20px;
     z-index: -1;
     -webkit-user-drag: none;
     user-select: none;
 }
-.section{
-    position: relative;
-}
+
 .clientsay-title {
     font-size : 40px;
     font-weight: bold;
@@ -195,7 +184,6 @@
 .client-container {
     border: 1px solid black;
     border-radius: 30px;
-    /* padding : 0px 20px; */
     width: 450px;
 }
 .client-image {
@@ -238,7 +226,7 @@
     place-content: center;
     font-size : 25px;
     color: #88888A;
-    text-align: center;
+    /* text-align: center; */
     user-select: none;
     font-weight: bold;
     padding: 50px 0px;
@@ -365,17 +353,17 @@
     width: 269px;
     height: 358px;
     border-radius: 10px;
+    -webkit-user-drag: none;
 }
 .designation {
     user-select: none;
     float: right;
+    padding-right: 5px;
 }
 .team-name{
     user-select: none;
     float: left;
 }
-
-
 
 @media screen and (max-width: 480px) {
     .marquee-heading{

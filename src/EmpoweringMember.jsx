@@ -1,8 +1,28 @@
 import data from './data/empowering.json'
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger';
+import { useEffect } from 'react';
 
-
+gsap.registerPlugin(ScrollTrigger);
 
 function EmpoweringMember() {
+  useEffect(() => {
+    gsap.fromTo('.empowering-grid', {
+      opacity : 0,
+      y : 100,
+    }, {
+      opacity : 1,
+      y : 0,
+      scrollTrigger : {
+        trigger : '.empowering-grid',
+        toggleActions : 'restart none none none',
+        start : '20% bottom',
+        duration : 1,
+        scrub : 1,
+        stagger : 1,
+      }
+    })
+  })
   return (
     <div className="empoweringMember">
       {data.map((data, index) => (

@@ -11,15 +11,19 @@ function TriggerScroll() {
       ".section-content",
       {
         opacity: 0,
+        y : 40,
       },
       {
         opacity: 1,
+        y : 0,
         stagger: 0.9,
         scrollTrigger: {
           trigger: ".section-content",
           toggleActions: "restart none none none",
           start: "center center",
           duration: 1,
+          scrub : 1,
+          stagger : 1,
         },
       }
     );
@@ -29,15 +33,19 @@ function TriggerScroll() {
       ".section-title",
       {
         opacity: 0,
+        y : 40,
       },
       {
         opacity: 1,
+        y : 0,
         stagger: 0.9,
         scrollTrigger: {
           trigger: ".section-title",
           toggleActions: "restart none none none",
           start: "center center",
           duration: 1,
+          scrub : 1,
+          stagger : 1,
         },
       }
     );
@@ -48,15 +56,19 @@ function TriggerScroll() {
       ".section-div-img",
       {
         opacity: 0,
+        y : 40,
       },
       {
         opacity: 1,
+        y : 0,
         stagger: 0.9,
         scrollTrigger: {
           trigger: ".section-div-img",
           toggleActions: "restart none none none",
           start: "center center",
           duration: 1,
+          scrub : 1,
+          stagger : 1,
         },
       }
     );
@@ -167,3 +179,4 @@ function TriggerScroll() {
 }
 
 export default TriggerScroll;
+

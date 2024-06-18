@@ -23,7 +23,7 @@ function App() {
         <Youtube />
       </div>
       <div className="success-story">
-        <TriggerScroll />
+      <TriggerScroll />
       </div>
       <ClientSay />
       <MarqueeClient />
