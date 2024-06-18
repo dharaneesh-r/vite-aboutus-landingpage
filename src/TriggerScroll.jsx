@@ -64,7 +64,7 @@ function TriggerScroll() {
         y : 0,
         stagger: 0.9,
         scrollTrigger: {
-          trigger: ".section-year",
+          trigger: ".section-title",
           toggleActions: "restart none none none",
           start: "center center",
           duration: 1,
