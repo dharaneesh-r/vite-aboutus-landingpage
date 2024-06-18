@@ -5,11 +5,8 @@ import { useEffect } from "react"
 gsap.registerPlugin(ScrollTrigger)
 
 function ShapingFutures() {
-  let mm = gsap.matchMedia();
 
   useEffect(() => {
-    mm.add("(min-width: 800px)", () => {
-      // desktop setup code here...
       gsap.fromTo('.shapingfutures-title',{
         opacity : 0,  
         x : -40,
@@ -25,9 +22,8 @@ function ShapingFutures() {
           stagger : 1,  
         }
       })
-    });
-    mm.add("(max-width: 799px)", () => {
-      // mobile setup code here...
+    },[])
+    useEffect(() =>{
       gsap.fromTo('.shapingfutures-title',{
         opacity : 0,  
         x : -20,
@@ -41,7 +37,6 @@ function ShapingFutures() {
           duration : 1,
         }
       })
-    });
   },[])
   return (
     <div className="shapingfutures-container">

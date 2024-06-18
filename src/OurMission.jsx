@@ -7,10 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const JSONdata = data;  
 function OurMission() {
-let mm = gsap.matchMedia();
   useEffect(() => {
-    mm.add("(min-width: 800px)", () => {
-      // desktop setup code here...
       gsap.fromTo('.ourmission-title', {
         opacity : 0,
         x : 40,
@@ -26,12 +23,8 @@ let mm = gsap.matchMedia();
           stagger : 1,  
         }
       })
-    });
-
   },[])
   useEffect(() => {
-    mm.add("(min-width: 800px)", () => {
-      // desktop setup code here...
       gsap.fromTo('.ourmission-content', {
         opacity : 0,
         x : 40,
@@ -47,7 +40,6 @@ let mm = gsap.matchMedia();
           stagger : 1,  
         }
       })
-    });
 
   },[])
 
