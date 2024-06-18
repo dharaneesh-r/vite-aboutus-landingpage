@@ -28,6 +28,7 @@ function TriggerScroll() {
       }
     );
   }, []);
+
   useEffect(() => {
     gsap.fromTo(
       ".section-title",
@@ -41,6 +42,29 @@ function TriggerScroll() {
         stagger: 0.9,
         scrollTrigger: {
           trigger: ".section-title",
+          toggleActions: "restart none none none",
+          start: "center center",
+          duration: 1,
+          scrub : 1,
+          stagger : 1,
+        },
+      }
+    );
+  }, []);
+
+  useEffect(() => {
+    gsap.fromTo(
+      ".section-year",
+      {
+        opacity: 0,
+        y : 40,
+      },
+      {
+        opacity: 1,
+        y : 0,
+        stagger: 0.9,
+        scrollTrigger: {
+          trigger: ".section-year",
           toggleActions: "restart none none none",
           start: "center center",
           duration: 1,
@@ -81,12 +105,12 @@ function TriggerScroll() {
         translateX: 0,
       },
       {
-        translateX: "-215vw",
+        translateX: "-165vw",
         ease: "none",
         duration: 1,
         scrollTrigger: {
           trigger: trigggerRef.current,
-          start: "top 20%",
+          start: "top 5%",
           end: "2000 left",
           scrub: 0.6,
           invalidateOnRefresh: true,
@@ -102,7 +126,7 @@ function TriggerScroll() {
     <section className="section-container">
       <div ref={trigggerRef}>
         <div ref={sectionRef} className="section-group">
-          <div className="section">
+          <div className="section-data">
             <div className="feature-title">
               SUCCESS
               <br />
@@ -117,8 +141,6 @@ function TriggerScroll() {
                 className="section-img"
               />
             </div>
-          </div>
-          <div className="section">
             <div className="section-title">First Dot</div>
             <br />
             <div className="section-content">
@@ -138,18 +160,16 @@ function TriggerScroll() {
                 className="section-img"
               />
             </div>
-          </div>
-          <div className="section">
-              <div className="section-title">First Dot</div>
-              <br />
-              <div className="section-content">
-                Established in 2017, Dotworld Robotics began as a passion
-                project, evolving into a leader in the robotics industry.
-                Through challenges and breakthroughs, we redefined automation
-                with a revolutionary vision. Today, we stand at the forefront,
-                transforming obstacles into opportunities and setting new
-                standards in robotics.
-              </div>
+            <div className="section-title">First Dot</div>
+            <br />
+            <div className="section-content">
+              Established in 2017, Dotworld Robotics began as a passion project,
+              evolving into a leader in the robotics industry. Through
+              challenges and breakthroughs, we redefined automation with a
+              revolutionary vision. Today, we stand at the forefront,
+              transforming obstacles into opportunities and setting new
+              standards in robotics.
+            </div>
           </div>
           <div className="section">
             <div className="section-year">2019</div>
@@ -159,8 +179,6 @@ function TriggerScroll() {
                 className="section-img"
               />
             </div>
-          </div>
-          <div className="section-last">
             <div className="section-title">First Dot</div>
             <br />
             <div className="section-content">

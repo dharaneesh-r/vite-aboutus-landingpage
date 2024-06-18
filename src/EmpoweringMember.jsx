@@ -16,7 +16,7 @@ function EmpoweringMember() {
       scrollTrigger : {
         trigger : '.empowering-grid',
         toggleActions : 'restart none none none',
-        start : '20% bottom',
+        start : '10% bottom',
         duration : 1,
         scrub : 1,
         stagger : 1,

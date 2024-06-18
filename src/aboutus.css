@@ -6,7 +6,7 @@
 *{
     font-family: Myfont;
     margin: 0;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .headingpage-container{
@@ -80,7 +80,6 @@
 .success-story {
     background-color: black;
     color: white;
-    /* width: 100%; */
 }
 .success-story-container{
     padding: 60px;
@@ -97,8 +96,8 @@
 
 }
 .section-group {
-    height : 70vh;
-    width : 2500vw;
+    width : 400vw;
+    height: 100vh;
     display : flex;
     /* overflow-x: hidden; */
     flex-direction : row;
@@ -112,12 +111,12 @@
     place-content: center;
 }
 .section { 
-    width : 100vh;
+    padding : 0px 5%;  
     display: inline;
     position: relative;
 }
 .section-content{
-    width : 80%;
+    width : 450px;
     font-size: 18px;
     color: grey;
     padding : 10px 10px;
@@ -126,7 +125,7 @@
     place-content: center;
 }
 .section-img{
-    width : 80%;
+    width : 450px;
     height : 250px;
     border-radius: 15px;
     display: flex;
@@ -137,19 +136,6 @@
     border-radius: 20px;
     /* padding-left:  0px; */
     user-select: none;
-}
-.section-content-last{
-    width : 70%;
-    font-size: 18px;
-    color: grey;
-    padding-bottom : 20px;
-    /* padding-right : 100%; */
-}
-
-.section-last { 
-    padding-right : 50%;
-    width : 100vh;
-    display: inline;
 }
 .feature-title{
     font-size : 100px;
@@ -164,7 +150,7 @@
     rotate: 270deg;
     padding: 0px;
     position : absolute;
-    left: -130px;   
+    left: 130px;   
     font-family: "Bebas Neue", sans-serif;
     top: 20px;
     z-index: -1;
@@ -339,10 +325,10 @@
     place-content: center;
 }
 .empoweringMember{
-    padding: 60px;
+    padding: 60px 60px;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    column-gap : 20px;
+    column-gap : 30px;
     row-gap : 40px;
 
 }
@@ -352,13 +338,11 @@
 .emp-image{
     width: 269px;
     height: 358px;
-    border-radius: 10px;
     -webkit-user-drag: none;
 }
+
 .designation {
     user-select: none;
-    float: right;
-    padding-right: 5px;
 }
 .team-name{
     user-select: none;
@@ -395,31 +379,6 @@
     .svg-heading{
         width : 40px;
         height: 40px;
-    }
-    .shapingfutures-title{
-        font-size : 20px;
-        font-weight: bold;
-        display: block;
-    }
-    .feature-title{
-        display: block;
-        text-align: center;
-        font-size : 3.5rem;
-    }
-    .section{
-        display: block;
-    }
-    .section-year{
-        display: block;
-        text-align: center;
-    }
-    .section-img{
-        width : 90%;
-        text-align: center;
-    }
-    .section-content{
-        display: block;
-        text-align: center;
     }
 
 }
