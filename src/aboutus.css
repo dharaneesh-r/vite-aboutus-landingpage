@@ -372,4 +372,37 @@
     .grid-container{
         display: block;
     }
+    .headingpage-title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .headingpage-image-1{
+        width : 25px;
+        height: 25px;
+    }
+    .headingpage-image-2{
+        width : 25px;
+        height: 25px;
+    }
+    .headingpage-image-3{
+        width: 25px;
+        height: 25px;
+    }
+    .headingpage-image-4{
+        width : 50px;
+        height: 25px;
+    }
+    .svg-heading{
+        width : 20px;
+        height: 20px;
+    }
+    .shapingfutures-title{
+        font-size : 18px;
+        font-weight: bold;
+        display: block;
+    }
+    .ourmission-content {
+        display: block;
+        font-size: 15px;
+    }
 }
