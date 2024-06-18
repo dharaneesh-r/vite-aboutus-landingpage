@@ -179,4 +179,3 @@ function TriggerScroll() {
 }
 
 export default TriggerScroll;
-

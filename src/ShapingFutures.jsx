@@ -26,6 +26,22 @@ function ShapingFutures() {
         }
       })
     });
+    mm.add("(max-width: 799px)", () => {
+      // mobile setup code here...
+      gsap.fromTo('.shapingfutures-title',{
+        opacity : 0,  
+        x : -20,
+      },{
+        opacity : 1,
+        x : 0,
+        scrollTrigger : {
+          trigger : '.shapingfutures-title',
+          toggleActions : 'restart none none none',
+          start : '10% bottom',
+          duration : 1,
+        }
+      })
+    });
   },[])
   return (
     <div className="shapingfutures-container">
