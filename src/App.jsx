@@ -10,6 +10,7 @@ import Youtube from './Youtube';
 import Footer from './Footer'
 import Footergrid from './Footergrid'
 import './aboutus.css'
+import ScrollingText from './ScrollingText';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <div className="headingpage-container">
         <Headingpage />
       </div>
+      <ScrollingText />
       <div className="shapingfutures">
         <ShapingFutures />
         <OurMission />
