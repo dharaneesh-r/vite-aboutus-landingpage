@@ -429,6 +429,9 @@
         grid-template-columns: auto;
         padding: 20px;
     }
+    .emp-image{
+        width: 100%;
+    }
     shapingfutures{
         padding : 0px;
         margin: 0px;
