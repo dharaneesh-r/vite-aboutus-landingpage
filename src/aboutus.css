@@ -342,6 +342,7 @@
 
 .designation {
     user-select: none;
+    padding-left : 70%;
 }
 .team-name{
     user-select: none;
