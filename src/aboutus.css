@@ -59,7 +59,7 @@
     font-size : 1.5rem;
     display: grid;
     grid-template-columns: auto auto;
-    padding: 20px;
+    padding: 60px 20px;
     user-select: none;
 }
 .ourservice-title{
