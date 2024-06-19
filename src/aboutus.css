@@ -8,7 +8,9 @@
     margin: 0;
     overflow-x: hidden;
 }
-
+.shapingfutures-container{
+    padding-top : 100px; 
+}
 .headingpage-container{
     place-content: center;
     height: 100vh;
