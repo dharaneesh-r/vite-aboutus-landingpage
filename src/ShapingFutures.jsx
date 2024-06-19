@@ -18,8 +18,9 @@ function ShapingFutures() {
           toggleActions : 'restart none none none',
           start : '10% bottom',
           duration : 1,
-          scrub : 1,
-          stagger : 1,  
+          // scrub : 1,
+          // stagger : 1,  
+          smooth : true,
         }
       })
     },[])

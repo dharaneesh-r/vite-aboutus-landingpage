@@ -76,7 +76,7 @@
 .ourmission-container{
     padding: 40px 0px;
     display: flex;
-    width: 100%;
+    /* width: 100%; */
 }
 .success-story {
     background-color: black;
@@ -380,6 +380,15 @@
     .svg-heading{
         width : 40px;
         height: 40px;
+    }
+    .shapingfutures-title{
+        font-size : 20px;
+    }
+    .ourmission-container{
+        display: grid;
+    }
+    .ourmission-title{
+        display: block;
     }
 
 }
