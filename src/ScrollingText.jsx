@@ -1,7 +1,7 @@
 function ScrollingText() {
   return (
     <>
-    <div style={{textAlign : 'center',position : 'relative',top : '95px',left : '10px'}}>
+    <div style={{textAlign : 'center',position : 'relative',top : '95px'}}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           focusable="false"
