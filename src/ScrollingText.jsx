@@ -1,7 +1,7 @@
 function ScrollingText() {
   return (
     <>
-    <div style={{textAlign : 'center',position : 'relative',top : '95px'}}>
+    <div style={{textAlign : 'center',position : 'relative',top : '95px',userSelect : 'none'}}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           focusable="false"
@@ -37,6 +37,7 @@ function ScrollingText() {
               fontStyle: "normal",
               fontWeight: "500",
               lineHeight: "1em",
+              userSelect: 'none'
             }}
           >
             Scroll to explore · Scroll to explore ·{" "}
