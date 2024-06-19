@@ -6,7 +6,9 @@
 *{
     font-family: Myfont;
     margin: 0;
-    overflow-x: hidden;
+    overflow-x: hidden;  
+    scroll-behavior: smooth;
+
 }
 .shapingfutures-container{
     padding-top : 100px; 
