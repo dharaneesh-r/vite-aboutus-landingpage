@@ -98,7 +98,7 @@ function TriggerScroll() {
       }
     );
   }, []);
-
+// let resol = gsap.matchMedia();
   useEffect(() => {
       const pin = gsap.fromTo(
         sectionRef.current,
@@ -106,7 +106,7 @@ function TriggerScroll() {
           translateX: 0,
         },
         {
-          translateX: "-165vw",
+          translateX: "-180vw",
           ease: "none",
           duration: 1,
           scrollTrigger: {
