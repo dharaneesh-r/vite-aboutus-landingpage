@@ -32,12 +32,12 @@ function ScrollingText() {
             dominantBaseline="Hanging"
             style={{
               letterSpacing: "1.7px",
-              fontFamily: "Inter",
+              fontFamily: "Myfont",
               fontSize: "16px",
               fontStyle: "normal",
               fontWeight: "500",
               lineHeight: "1em",
-              userSelect: 'none'
+              userSelect: 'none',
             }}
           >
             Scroll to explore · Scroll to explore ·{" "}

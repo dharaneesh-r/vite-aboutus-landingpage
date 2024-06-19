@@ -26,7 +26,7 @@ function HeadingPage() {
         />
       </sub>{" "}
       <br />
-      About
+      About {" "}
       <sub>
         <img
           src="https://framerusercontent.com/images/QaIKGMbcFVN1hO95wHQnjj7SYX8.jpg?scale-down-to=512"
