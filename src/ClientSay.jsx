@@ -5,6 +5,7 @@ function ClientSay() {
         <div>
         What our client Say
         </div>
+        <div style={{padding : '10px'}}></div>
         <hr />
     </div>
   )

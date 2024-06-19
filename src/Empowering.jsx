@@ -6,20 +6,22 @@ import { useEffect } from 'react';
 gsap.registerPlugin(ScrollTrigger);
 function Empowering() {
   useEffect(() => {
-    gsap.fromTo('.empowering-container', {
+    gsap.fromTo('.ourservice-title', {
       opacity : 0,
-      x : 100,
+      y : 20,
+    },{
+      opacity : 1,
+      y : 0,
+    })
+  },[])
+  useEffect(() => {
+    gsap.fromTo('.ourservice-content', {
+      opacity : 0,
+      x : -20,
     },{
       opacity : 1,
       x : 0,
-      scrollTrigger : {
-        trigger : '.empowering-container',
-        toggleActions : 'restart none none none',
-        start : '20% bottom',
-        duration : 1,
-        scrub : 1,
-        stagger : 1,  
-      }
+      duration : 1,
     })
   },[])
   return (
@@ -28,11 +30,11 @@ function Empowering() {
         Empowering Possibilities with Precision Tools and Skilled Minds
         <hr />
       </div>
-      <div className="title-emp">
-        <div className="title-empowering">Our Team</div>
+      <div className="ourservice">
+        <div className="ourservice-title">Our Team</div>
         {data.map((data, index) => (
           <div key={index}>
-            <div className="content-empowering">{data.content}</div>
+            <div className="ourservice-content">{data.content}</div>
           </div>
         ))}
       </div>

@@ -55,28 +55,24 @@
     padding : 10px;
     user-select: none;
 }
-.ourmission-title {
-    font-size: 20px;
-    color: #88888A;
-    font-weight: bold;
-    padding : 20px 0px;
+.ourservice{
+    font-size : 1.5rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
     user-select: none;
-    float: left;    
+}
+.ourservice-title{
+    color: grey;
     place-content: center;
-    text-align: center;
-    width: 30%;
 }
-.ourmission-content {
-    font-size: 20px;
-    color: #0f0f0f;
-    user-select: none;
-    float: right;
-    width: 70%;
-}
-.ourmission-container{
-    padding: 40px 0px;
-    display: flex;
-    /* width: 100%; */
+.ourservice-content{
+    color: black;
+    float : right;
+    padding-left : 20%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: smaller;
 }
 .success-story {
     background-color: black;
@@ -381,14 +377,60 @@
         width : 40px;
         height: 40px;
     }
+    .ourservice{
+        display: block;
+        padding: 10px;
+    }
+    .ourservice-title{
+        font-size : 20px;
+        padding : 10px 0px;
+    }
+    .ourservice-content{
+        font-size: 15px;
+        padding: 0;
+        text-align: justify;
+    }
     .shapingfutures-title{
         font-size : 20px;
     }
-    .ourmission-container{
-        display: grid;
-    }
-    .ourmission-title{
+    .feature-title{
+        text-align: center;
+        font-size : 5rem;
         display: block;
     }
-
+    .client-container{
+        width : 300px;
+    }
+    .clientsay-title{
+        font-size: 24px;
+        padding : 20px 20px;
+    }
+    .client-src-image{
+        width : 30%;
+    }
+    .client-content {
+        font-size: 15px;
+    }
+    .client-candidate{
+        font-size: 15px;
+    }
+    .client-head{
+        font-size: 15px;
+    }
+    .empowering-container {
+        display: block;
+        padding: 40px 20px;
+    }
+    .empowering-title{
+        font-size: 20px;
+    }
+    .empoweringMember{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 20px;
+    }
+    shapingfutures{
+        padding : 0px;
+        margin: 0px;
+    }
 }

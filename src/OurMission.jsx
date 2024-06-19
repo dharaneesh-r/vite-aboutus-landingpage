@@ -8,14 +8,14 @@ gsap.registerPlugin(ScrollTrigger);
 const JSONdata = data;  
 function OurMission() {
   useEffect(() => {
-      gsap.fromTo('.ourmission-title', {
+      gsap.fromTo('.ourservice-title', {
         opacity : 0,
         x : 40,
       }, {
         opacity : 1,
         x : 0,
         scrollTrigger : {
-          trigger : '.ourmission-title',
+          trigger : '.ourservice-title',
           toggleActions : 'restart none none none',
           start : '10% bottom',
           duration : 1,
@@ -26,14 +26,14 @@ function OurMission() {
       })
   },[])
   useEffect(() => {
-      gsap.fromTo('.ourmission-content', {
+      gsap.fromTo('.ourservice-content', {
         opacity : 0,
         x : 40,
       },{
         opacity: 1,
         x : 0,
         scrollTrigger : {
-          trigger : '.ourmission-content',
+          trigger : '.ourservice-content',
           toggleActions : 'restart none none none',
           start : '10% bottom',
           duration : 1,
@@ -46,11 +46,11 @@ function OurMission() {
   },[])
 
   return (
-    <div className="ourmission-container">
-      <div className="ourmission-title">Our Mission</div>
+    <div className="ourservice">
+      <div className="ourservice-title">Our Mission</div>
       {JSONdata.map((data, index) => (
         <div key={index}>
-          <div className="ourmission-content">{data.content}</div>
+          <div className="ourservice-content">{data.content}</div>
         </div>
       ))}
     </div>

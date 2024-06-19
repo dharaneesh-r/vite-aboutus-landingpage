@@ -7,22 +7,22 @@ gsap.registerPlugin(ScrollTrigger);
 
 function EmpoweringMember() {
   useEffect(() => {
-    gsap.fromTo('.empowering-grid', {
+    gsap.fromTo('.empoweringMember', {
       opacity : 0,
-      y : 100,
+      y : 50,
     }, {
       opacity : 1,
       y : 0,
       scrollTrigger : {
-        trigger : '.empowering-grid',
+        trigger : '.empoweringMember',
         toggleActions : 'restart none none none',
         start : '10% bottom',
         duration : 1,
-        scrub : 1,
-        stagger : 1,
+        // scrub : 1,
+        // stagger : 1,
       }
     })
-  })
+  },[])
   return (
     <div className="empoweringMember">
       {data.map((data, index) => (

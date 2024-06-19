@@ -4,6 +4,7 @@ import { ScrollTrigger } from "gsap/all";
 
 gsap.registerPlugin(ScrollTrigger);
 function TriggerScroll() {
+  // let mm = gsap.matchMedia();
   const sectionRef = useRef(null);
   const trigggerRef = useRef(null);
   useEffect(() => {
@@ -99,28 +100,28 @@ function TriggerScroll() {
   }, []);
 
   useEffect(() => {
-    const pin = gsap.fromTo(
-      sectionRef.current,
-      {
-        translateX: 0,
-      },
-      {
-        translateX: "-165vw",
-        ease: "none",
-        duration: 1,
-        scrollTrigger: {
-          trigger: trigggerRef.current,
-          start: "top 5%",
-          end: "2000 left",
-          scrub: 0.6,
-          invalidateOnRefresh: true,
-          pin: true,
+      const pin = gsap.fromTo(
+        sectionRef.current,
+        {
+          translateX: 0,
         },
-      }
-    );
-    return () => {
-      pin.kill();
-    };
+        {
+          translateX: "-165vw",
+          ease: "none",
+          duration: 1,
+          scrollTrigger: {
+            trigger: trigggerRef.current,
+            start: "top 5%",
+            end: "2000 left",
+            scrub: 0.6,
+            invalidateOnRefresh: true,
+            pin: true,
+          },
+        }
+      );
+      return () => {
+        pin.kill();
+      };
   }, []);
   return (
     <section className="section-container">
